@@ -19,7 +19,7 @@ namespace AdhocReports
             dt = GetLinks();
             gvAdhoc.DataSource = dt;
             gvAdhoc.DataBind();
-            //gvAdhoc.DataBind();
+            //gvAdhoc.DataBind();//
         }
 
         public   DataTable GetLinks()
