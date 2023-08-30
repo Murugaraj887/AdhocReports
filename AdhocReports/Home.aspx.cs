@@ -18,7 +18,7 @@ namespace AdhocReports
             dt.Columns.Add("Url");
             dt = GetLinks();
             gvAdhoc.DataSource = dt;
-            gvAdhoc.DataBind();
+            gvAdhoc.DataBind();//
            
         }
 
